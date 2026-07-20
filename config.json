@@ -1,0 +1,118 @@
+{
+  "guild_id": 1528460047904936016,
+  "voice_channel_id": 1528460048404320394,
+  "report_channel_id": 1528460048404320390,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "database_path": "data/attendance.sqlite3",
+  "workbook_path": "data/Tuyet_Nguyet.xlsx",
+  "sheet_name": "Trang tính2",
+  "header_row": 2,
+  "first_member_row": 3,
+  "member_end_marker": "Số Người Tham Gia Hoạt Động",
+  "stt_column": 1,
+  "attendance_columns": {
+    "boss_trua": [
+      5,
+      9,
+      12,
+      15,
+      19,
+      22,
+      26
+    ],
+    "van_tieu": [
+      6,
+      10,
+      13,
+      16,
+      20,
+      23,
+      28
+    ],
+    "boss_toi": [
+      7,
+      11,
+      14,
+      17,
+      21,
+      24,
+      27
+    ],
+    "lien_dai_thu2": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+    ],
+    "lien_dai_thu5": [
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18
+    ],
+    "ctc": [
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25
+    ]
+  },
+  "scheduler_seconds": 5,
+  "manual_required_ratio": 0.6,
+  "command_role_ids": [],
+  "shifts": [
+    {
+      "key": "boss_trua",
+      "label": "Boss Trưa",
+      "start": "12:00",
+      "end": "12:40",
+      "minimum_minutes": 15,
+      "excel_offset": 0
+    },
+    {
+      "key": "van_tieu",
+      "label": "Vận Tiêu",
+      "start": "20:00",
+      "end": "20:40",
+      "minimum_minutes": 10,
+      "excel_offset": 1
+    },
+    {
+      "key": "boss_toi",
+      "label": "Boss Tối",
+      "start": "22:00",
+      "end": "22:40",
+      "minimum_minutes": 15,
+      "excel_offset": 2
+    }
+  ],
+  "special_activities": [
+    {
+      "key": "lien_dai_thu2",
+      "label": "Liên Đài Thứ 2",
+      "weekday": 0,
+      "column": 8
+    },
+    {
+      "key": "lien_dai_thu5",
+      "label": "Liên Đài Thứ 5",
+      "weekday": 3,
+      "column": 18
+    },
+    {
+      "key": "ctc",
+      "label": "CTC",
+      "weekday": 5,
+      "column": 25
+    }
+  ]
+}
