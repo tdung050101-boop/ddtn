@@ -1,7 +1,7 @@
 {
-  "guild_id": 1528460047904936016,
-  "voice_channel_id": 1528460048404320394,
-  "report_channel_id": 1528460048404320390,
+  "guild_id": 1472279976572096694,
+  "voice_channel_id": 1472279977067155492,
+  "report_channel_id": 1528750855350648882,
   "timezone": "Asia/Ho_Chi_Minh",
   "database_path": "data/attendance.sqlite3",
   "workbook_path": "data/Tuyet_Nguyet.xlsx",
